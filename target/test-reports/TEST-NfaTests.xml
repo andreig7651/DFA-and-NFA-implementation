@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-F385REB" name="NfaTests" tests="16" errors="0" failures="1" skipped="0" time="0.171" timestamp="2023-01-08T21:06:58">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="Unknown"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/andreig7651/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-10-18"/><property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.5+8-Ubuntu-2ubuntu120.04"/><property name="user.name" value="andreig7651"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/andreig7651/.cache/JNA/temp/jna15130525832809917828.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.5"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Private Build"/><property name="scala.ext.dirs" value="/home/andreig7651/.sbt/1.0/java9-rt-ext-private_build_17_0_5"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/andreig7651/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="java.vm.vendor" value="Private Build"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Bucharest"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/andreig7651"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="swoval.tmpdir" value="/home/andreig7651/.sbt/1.0"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="4.19.128-microsoft-standard"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/libx32:/lib32:/usr/lib/wsl/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="Unknown"/><property name="user.dir" value="/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/schelet_scala/skel-scala"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.5+8-Ubuntu-2ubuntu120.04"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="NfaTests" name="Nfa from Eps" time="0.067">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from Void" time="0.014">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from char" time="0.002">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 1" time="0.014">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 1 with bad input" time="0.001">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 2" time="0.01">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 2 with bad input" time="0.002">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from star expression 1" time="0.005">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from star expression with bad string" time="0.002">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 3" time="0.008">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 4" time="0.001">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 5 and bad input" time="0.002">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 5" time="0.003">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 6" time="0.006">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa from complex expression 7" time="0.003">
+                      
+                    </testcase><testcase classname="NfaTests" name="Nfa map" time="0.031">
+                      <failure message="/mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/schelet_scala/skel-scala/src/test/scala/NfaTests.scala:128 assertion failed
+127:
+[7m128:    assert(regexes.forall((p: (String, String, Int =&gt; Any)) =&gt; { // run test for each tuple in &quot;regexes&quot;[0m
+129:" type="munit.FailException">munit.FailException: /mnt/d/Anul 3/Semestrul 1/Limbaje formale si automate/schelet_scala/skel-scala/src/test/scala/NfaTests.scala:128 assertion failed
+127:
+[7m128:    assert(regexes.forall((p: (String, String, Int =&gt; Any)) =&gt; { // run test for each tuple in &quot;regexes&quot;[0m
+129:
+	at munit.FunSuite.assert(FunSuite.scala:11)
+	at NfaTests.$anonfun$new$58(NfaTests.scala:128)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>
